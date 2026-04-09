@@ -9,6 +9,9 @@ namespace CRUDMahasiswaADO
     {
 
         // Koneksi Database
+        private readonly SqlConnection conn;
+        private readonly string connectionString =
+        "Data Source=P\\SQLEXPRESS;Initial Catalog=DBAkademikADO;Integrated Security=True";
 
 
         public Form1()
